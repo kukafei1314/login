@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+#bg {
+	background-color: #EDEDED;
+	z-index: 1;
+}
+#div_bg {
+	height: auto;
+	width: 961px;
+	position: absolute;
+	visibility: visible;
+	z-index: 2;
+	border: thin solid #FFF;
+	left: 230px;
+	top: 0px;
+}
+.div_ss {
+	background-image: url(image/ss.gif);
+	position: absolute;
+	height: 22px;
+	width: 20px;
+	left: 913px;
+	top: 44px;
+}
+
+
+#div_1 {
+	visibility: visible;
+	z-index: 3;
+	margin-top: 11px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#div_2 {
+	float: left;
+	height: 249px;
+	width: 272px;
+	margin-right: 15px;
+	background-color: #F8F8F8;
+}
+#div_3 {
+	float: left;
+	height: 249px;
+	width: 360px;
+	margin-right: 28px;
+	background-color: #FFFFFF;
+}
+#div_txt {
+	height: 128px;
+	width: 232px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	text-align: justify;
+	text-indent: 20px;
+	line-height: 150%;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+#div_4 {
+	height: 217px;
+	width: 360px;
+	margin-top: 5px;
+	padding: 0px;
+}
+.PP {
+	font-size: 12px;
+	line-height: 150%;
+	color: #000;
+	text-align: justify;
+	text-indent: 20px;
+}
+.p_c {
+	font-size: 12px;
+	color: #000;
+	text-align: center;
+}
+#div_tb {
+	background-color: #FAF8FA;
+	height: 28px;
+	width: 773px;
+	border-top-width: 2px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-top-color: #DBDBDB;
+	border-bottom-color: #DBDBDB;
+	margin: 0px;
+	font-size: 12px;
+}
+#link a {
+	font-size: 14px;
+	color: #FFF;
+	text-decoration: none;
+	vertical-align: bottom;
+	font-weight: bolder;
+	height: 32px;
+	width: 101px;
+	display: block;
+	line-height: 210%;
+}
+#div_ifo {
+	background-image: url(../image/qt_r7_c3.gif);
+	height: 30px;
+	width: 961px;
+	font-size: 12px;
+	background-repeat: no-repeat;
+	line-height: 230%;
+}
+
+#link a:link, 
+#link a:visited { 
+color:#FFF; 
+text-decoration:none; 
+} 
+#link a:hover, 
+#link a:active {
+	text-decoration: none;
+	background-image: url(../image/r2_c5.gif);
+	display: block;
+} 
+#t a {
+	font-size: 12px;
+	color: #000;
+	text-decoration: none;
+	vertical-align: middle;
+}
